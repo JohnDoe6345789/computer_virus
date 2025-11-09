@@ -1,0 +1,54 @@
+Static analysis summary:
+Hashes:
+78695d93aa5816a9286d98cd43fe3e91480f5e75c2f093cd0b9770063a0547fd  suspect.exe
+Top strings (first 50 lines):
+!This program cannot be run in DOS mode.
+t$ WAVAWH
+t$ UWAWH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+t$ WATAUAVAWH
+ A_A^A]A\_
+ux8L$Hu7D
+x UATAUAVAWH
+A_A^A]A\]
+gfffffffH
+gfffffffH
+l$ VWATAVAWH
+ A_A^A\_^
+@SVWAVAWH
+t$ WAVAWH
+WATAUAVAWH
+A_A^A]A\_
+|$ ATAVAWH
+|$ ATAUAVH
+t$ WATAUAVAWH
+A_A^A]A\_
+x ATAVAWH
+] H9>t.Hc=
+t$ WAVAWH
+` AUAVAWH
+UVWATAUAVAWH
+PA_A^A]A\_^]
+p WAVAWH
+p WAVAWH
+p WAVAWH
+D$@!\$P!\$T
+D$(!\$8!\$<
+H!\$0H!\$8
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+c AUAVAWH
+c AUAVAWH
+D$0!\$@!\$D
+D$L!\$\!\$`
+t$ WAVAWH
+H!|$0H!|$8
+|$ ATAVAWH
+L$ WATAUAVAWH
+t*Hc=W ;
+A_A^A]A\_
+H!|$0H!|$8
+t$ WAVAWH

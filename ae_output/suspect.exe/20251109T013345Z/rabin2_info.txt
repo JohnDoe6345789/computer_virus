@@ -1,0 +1,33 @@
+arch     x86
+baddr    0x180000000
+binsz    4035136
+bintype  pe
+bits     64
+canary   true
+retguard false
+class    PE32+
+cmp.csum 0x003e1a1a
+compiled Wed Oct 28 08:08:43 2020
+crypto   false
+dbg_file AGM.pdb
+endian   little
+havecode true
+hdr.csum 0x003e1a1a
+guid     7F6D92B7E2724383B069959D7C9D657E1
+laddr    0x0
+lang     msvc
+linenum  false
+lsyms    false
+machine  AMD 64
+nx       true
+os       windows
+overlay  true
+cc       ms
+pic      true
+relocs   false
+signed   true
+sanitize false
+static   false
+stripped false
+subsys   Windows GUI
+va       true

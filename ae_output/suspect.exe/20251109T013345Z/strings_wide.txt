@@ -1,0 +1,42 @@
+api-ms-win-core-synch-l1-2-0.dll
+kernel32.dll
+83`3
+383`3
+383`3
+383`3
+383`3
+383`3
+-7M7
+%868
+VS_VERSION_INFO
+StringFileInfo
+080004b0
+BinType
+CompanyName
+Adobe Systems Incorporated
+FileDescription
+Adobe Graphics Manager
+FileVersion
+4.30.87.47594
+InternalName
+LegalCopyright
+ 1984-2009 Adobe Systems Incorporated
+OriginalFilename
+AGM.dll
+ProductName
+AGM 2020/10/28-12:40:22
+ProductVersion
+113.624934
+BuildDate
+2020/10/28-12:40:22
+BuildVersion
+113.624934
+BuildType
+ReleaseMinMT
+BuildID
+47594
+VarFileInfo
+Translation
+RAny use of this Certificate constitutes acceptance of the DigiCert CP/CPS and the Relying Party Agreement which limit liability and are incorporated herein by reference
+(Adobe Photoshop 202
+RAny use of this Certificate constitutes acceptance of the DigiCert CP/CPS and the Relying Party Agreement which limit liability and are incorporated herein by reference

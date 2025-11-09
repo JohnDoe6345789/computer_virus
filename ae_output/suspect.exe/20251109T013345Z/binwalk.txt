@@ -1,0 +1,22 @@
+
+Extractor Exception: In order to execute third party applications as root, binwalk must be run with root privileges.
+----------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/binwalk/core/module.py", line 258, in __init__
+    self.load()
+  File "/usr/lib/python3/dist-packages/binwalk/modules/extractor.py", line 160, in load
+    raise ModuleException("In order to execute third party applications as %s, binwalk must be run with root privileges." % self.runas_user)
+binwalk.core.exceptions.ModuleException: In order to execute third party applications as root, binwalk must be run with root privileges.
+----------------------------------------------------------------------------------------------------
+
+
+Extractor Exception: In order to execute third party applications as root, binwalk must be run with root privileges.
+----------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/binwalk/core/module.py", line 258, in __init__
+    self.load()
+  File "/usr/lib/python3/dist-packages/binwalk/modules/extractor.py", line 160, in load
+    raise ModuleException("In order to execute third party applications as %s, binwalk must be run with root privileges." % self.runas_user)
+binwalk.core.exceptions.ModuleException: In order to execute third party applications as root, binwalk must be run with root privileges.
+----------------------------------------------------------------------------------------------------
+

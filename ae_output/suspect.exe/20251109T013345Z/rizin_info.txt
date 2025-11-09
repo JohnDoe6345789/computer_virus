@@ -1,0 +1,322 @@
+arch     x86
+cpu      N/A
+features N/A
+baddr    0x180000000
+binsz    0x003d9240
+bintype  pe
+bits     64
+retguard false
+class    PE32+
+cmp.csum 0x003e1a1a
+compiled Wed Oct 28 08:08:43 2020 UTC
+compiler Linker 14.26
+dbg_file AGM.pdb
+endian   LE
+hdr.csum 0x003e1a1a
+guid     7F6D92B7E2724383B069959D7C9D657E1
+intrp    N/A
+laddr    0x00000000
+lang     msvc
+machine  AMD 64
+maxopsz  16
+minopsz  1
+os       windows
+overlay  false
+cc       ms
+pcalign  1
+rpath    N/A
+signed   true
+subsys   Windows GUI
+stripped false
+crypto   false
+havecode true
+va       true
+sanitiz  false
+static   false
+linenum  false
+lsyms    false
+canary   false
+PIE      true
+RELROCS  false
+NX       true
+     paddr     size       vaddr    vsize align perm name   type flags                                
+-----------------------------------------------------------------------------------------------------
+0x00000400 0x29e600 0x180001000 0x29f000   0x0 -r-x .text       CNT_CODE
+0x0029ea00  0xee800 0x1802a0000  0xef000   0x0 -r-- .rdata      CNT_INITIALIZED_DATA
+0x0038d200  0x23a00 0x18038f000  0x53000   0x0 -rw- .data       CNT_INITIALIZED_DATA
+0x003b0c00  0x1f600 0x1803e2000  0x20000   0x0 -r-- .pdata      CNT_INITIALIZED_DATA
+0x003d0200    0x800 0x180402000   0x1000   0x0 -r-- .rsrc       CNT_INITIALIZED_DATA
+0x003d0a00   0x6a00 0x180403000   0x7000   0x0 -r-- .reloc      CNT_INITIALIZED_DATA,MEM_DISCARDABLE
+nth       vaddr bind type lib                               name                                                                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1 0x1802a01e8 NONE FUNC KERNEL32.dll                      CreateEventW
+  2 0x1802a01f0 NONE FUNC KERNEL32.dll                      InitializeCriticalSectionAndSpinCount
+  3 0x1802a01f8 NONE FUNC KERNEL32.dll                      GetModuleHandleW
+  4 0x1802a0200 NONE FUNC KERNEL32.dll                      RtlCaptureContext
+  5 0x1802a0208 NONE FUNC KERNEL32.dll                      RtlLookupFunctionEntry
+  6 0x1802a0210 NONE FUNC KERNEL32.dll                      RtlVirtualUnwind
+  7 0x1802a0218 NONE FUNC KERNEL32.dll                      UnhandledExceptionFilter
+  8 0x1802a0220 NONE FUNC KERNEL32.dll                      SetUnhandledExceptionFilter
+  9 0x1802a0228 NONE FUNC KERNEL32.dll                      TerminateProcess
+ 10 0x1802a0230 NONE FUNC KERNEL32.dll                      IsProcessorFeaturePresent
+ 11 0x1802a0238 NONE FUNC KERNEL32.dll                      IsDebuggerPresent
+ 12 0x1802a0240 NONE FUNC KERNEL32.dll                      QueryPerformanceCounter
+ 13 0x1802a0248 NONE FUNC KERNEL32.dll                      FreeLibrary
+ 14 0x1802a0250 NONE FUNC KERNEL32.dll                      GetModuleFileNameA
+ 15 0x1802a0258 NONE FUNC KERNEL32.dll                      LoadLibraryA
+ 16 0x1802a0260 NONE FUNC KERNEL32.dll                      GetSystemDirectoryA
+ 17 0x1802a0268 NONE FUNC KERNEL32.dll                      GetUserDefaultLangID
+ 18 0x1802a0270 NONE FUNC KERNEL32.dll                      GetCurrentProcess
+ 19 0x1802a0278 NONE FUNC KERNEL32.dll                      DuplicateHandle
+ 20 0x1802a0280 NONE FUNC KERNEL32.dll                      CreateSemaphoreA
+ 21 0x1802a0288 NONE FUNC KERNEL32.dll                      GetVersionExA
+ 22 0x1802a0290 NONE FUNC KERNEL32.dll                      GetThreadPriority
+ 23 0x1802a0298 NONE FUNC KERNEL32.dll                      SetThreadPriority
+ 24 0x1802a02a0 NONE FUNC KERNEL32.dll                      GetCurrentThread
+ 25 0x1802a02a8 NONE FUNC KERNEL32.dll                      DeleteCriticalSection
+ 26 0x1802a02b0 NONE FUNC KERNEL32.dll                      InitializeCriticalSection
+ 27 0x1802a02b8 NONE FUNC KERNEL32.dll                      SwitchToThread
+ 28 0x1802a02c0 NONE FUNC KERNEL32.dll                      LeaveCriticalSection
+ 29 0x1802a02c8 NONE FUNC KERNEL32.dll                      EnterCriticalSection
+ 30 0x1802a02d0 NONE FUNC KERNEL32.dll                      SystemTimeToFileTime
+ 31 0x1802a02d8 NONE FUNC KERNEL32.dll                      CreateWaitableTimerA
+ 32 0x1802a02e0 NONE FUNC KERNEL32.dll                      TlsFree
+ 33 0x1802a02e8 NONE FUNC KERNEL32.dll                      TlsSetValue
+ 34 0x1802a02f0 NONE FUNC KERNEL32.dll                      TlsGetValue
+ 35 0x1802a02f8 NONE FUNC KERNEL32.dll                      TlsAlloc
+ 36 0x1802a0300 NONE FUNC KERNEL32.dll                      ResumeThread
+ 37 0x1802a0308 NONE FUNC KERNEL32.dll                      SetWaitableTimer
+ 38 0x1802a0310 NONE FUNC KERNEL32.dll                      GetLastError
+ 39 0x1802a0318 NONE FUNC KERNEL32.dll                      HeapFree
+ 40 0x1802a0320 NONE FUNC KERNEL32.dll                      HeapAlloc
+ 41 0x1802a0328 NONE FUNC KERNEL32.dll                      GetProcessHeap
+ 42 0x1802a0330 NONE FUNC KERNEL32.dll                      ResetEvent
+ 43 0x1802a0338 NONE FUNC KERNEL32.dll                      SetEvent
+ 44 0x1802a0340 NONE FUNC KERNEL32.dll                      GetCurrentThreadId
+ 45 0x1802a0348 NONE FUNC KERNEL32.dll                      GetCurrentProcessId
+ 46 0x1802a0350 NONE FUNC KERNEL32.dll                      GetProcAddress
+ 47 0x1802a0358 NONE FUNC KERNEL32.dll                      Sleep
+ 48 0x1802a0360 NONE FUNC KERNEL32.dll                      ReleaseSemaphore
+ 49 0x1802a0368 NONE FUNC KERNEL32.dll                      WaitForMultipleObjectsEx
+ 50 0x1802a0370 NONE FUNC KERNEL32.dll                      WaitForSingleObjectEx
+ 51 0x1802a0378 NONE FUNC KERNEL32.dll                      CloseHandle
+ 52 0x1802a0380 NONE FUNC KERNEL32.dll                      GetTickCount
+ 53 0x1802a0388 NONE FUNC KERNEL32.dll                      GetSystemInfo
+ 54 0x1802a0390 NONE FUNC KERNEL32.dll                      GetModuleHandleA
+ 55 0x1802a0398 NONE FUNC KERNEL32.dll                      OpenEventA
+ 56 0x1802a03a0 NONE FUNC KERNEL32.dll                      CreateEventA
+ 57 0x1802a03a8 NONE FUNC KERNEL32.dll                      GetSystemTimeAsFileTime
+ 58 0x1802a03b0 NONE FUNC KERNEL32.dll                      LocalFree
+ 59 0x1802a03b8 NONE FUNC KERNEL32.dll                      InitializeSListHead
+ 60 0x1802a03c0 NONE FUNC KERNEL32.dll                      FormatMessageA
+  1 0x1802a0460 NONE FUNC USER32.dll                        LoadIconA
+  2 0x1802a0468 NONE FUNC USER32.dll                        LoadCursorA
+  3 0x1802a0470 NONE FUNC USER32.dll                        SetWindowPos
+  4 0x1802a0478 NONE FUNC USER32.dll                        DestroyWindow
+  5 0x1802a0480 NONE FUNC USER32.dll                        CreateWindowExA
+  6 0x1802a0488 NONE FUNC USER32.dll                        UnregisterClassA
+  7 0x1802a0490 NONE FUNC USER32.dll                        RegisterClassA
+  8 0x1802a0498 NONE FUNC USER32.dll                        GetMonitorInfoA
+  9 0x1802a04a0 NONE FUNC USER32.dll                        EnumDisplayMonitors
+ 10 0x1802a04a8 NONE FUNC USER32.dll                        GetClientRect
+ 11 0x1802a04b0 NONE FUNC USER32.dll                        WindowFromDC
+ 12 0x1802a04b8 NONE FUNC USER32.dll                        GetDC
+ 13 0x1802a04c0 NONE FUNC USER32.dll                        ReleaseDC
+ 14 0x1802a04c8 NONE FUNC USER32.dll                        GetWindowRect
+ 15 0x1802a04d0 NONE FUNC USER32.dll                        ScrollWindowEx
+ 16 0x1802a04d8 NONE FUNC USER32.dll                        OffsetRect
+ 17 0x1802a04e0 NONE FUNC USER32.dll                        MonitorFromPoint
+ 18 0x1802a04e8 NONE FUNC USER32.dll                        MonitorFromWindow
+ 19 0x1802a04f0 NONE FUNC USER32.dll                        GetSystemMetrics
+ 20 0x1802a04f8 NONE FUNC USER32.dll                        GetDesktopWindow
+ 21 0x1802a0500 NONE FUNC USER32.dll                        DefWindowProcA
+  1 0x1802a0000 NONE FUNC GDI32.dll                         PolyDraw
+  2 0x1802a0008 NONE FUNC GDI32.dll                         EndPath
+  3 0x1802a0010 NONE FUNC GDI32.dll                         CloseFigure
+  4 0x1802a0018 NONE FUNC GDI32.dll                         BeginPath
+  5 0x1802a0020 NONE FUNC GDI32.dll                         ModifyWorldTransform
+  6 0x1802a0028 NONE FUNC GDI32.dll                         SetWorldTransform
+  7 0x1802a0030 NONE FUNC GDI32.dll                         GetWorldTransform
+  8 0x1802a0038 NONE FUNC GDI32.dll                         SetROP2
+  9 0x1802a0040 NONE FUNC GDI32.dll                         SetPolyFillMode
+ 10 0x1802a0048 NONE FUNC GDI32.dll                         SetGraphicsMode
+ 11 0x1802a0050 NONE FUNC GDI32.dll                         SetDIBits
+ 12 0x1802a0058 NONE FUNC GDI32.dll                         Rectangle
+ 13 0x1802a0060 NONE FUNC GDI32.dll                         LineTo
+ 14 0x1802a0068 NONE FUNC GDI32.dll                         IntersectClipRect
+ 15 0x1802a0070 NONE FUNC GDI32.dll                         GetStockObject
+ 16 0x1802a0078 NONE FUNC GDI32.dll                         GetGraphicsMode
+ 17 0x1802a0080 NONE FUNC GDI32.dll                         GetCurrentObject
+ 18 0x1802a0088 NONE FUNC GDI32.dll                         GetClipBox
+ 19 0x1802a0090 NONE FUNC GDI32.dll                         Escape
+ 20 0x1802a0098 NONE FUNC GDI32.dll                         CreatePatternBrush
+ 21 0x1802a00a0 NONE FUNC GDI32.dll                         CreateBitmap
+ 22 0x1802a00a8 NONE FUNC GDI32.dll                         StretchBlt
+ 23 0x1802a00b0 NONE FUNC GDI32.dll                         SelectPalette
+ 24 0x1802a00b8 NONE FUNC GDI32.dll                         RealizePalette
+ 25 0x1802a00c0 NONE FUNC GDI32.dll                         PatBlt
+ 26 0x1802a00c8 NONE FUNC GDI32.dll                         CreatePalette
+ 27 0x1802a00d0 NONE FUNC GDI32.dll                         CreateBrushIndirect
+ 28 0x1802a00d8 NONE FUNC GDI32.dll                         CreateDIBSection
+ 29 0x1802a00e0 NONE FUNC GDI32.dll                         BitBlt
+ 30 0x1802a00e8 NONE FUNC GDI32.dll                         GetDIBColorTable
+ 31 0x1802a00f0 NONE FUNC GDI32.dll                         SelectClipRgn
+ 32 0x1802a00f8 NONE FUNC GDI32.dll                         OffsetRgn
+ 33 0x1802a0100 NONE FUNC GDI32.dll                         GetRgnBox
+ 34 0x1802a0108 NONE FUNC GDI32.dll                         GetRegionData
+ 35 0x1802a0110 NONE FUNC GDI32.dll                         EqualRgn
+ 36 0x1802a0118 NONE FUNC GDI32.dll                         CreateRectRgn
+ 37 0x1802a0120 NONE FUNC GDI32.dll                         CombineRgn
+ 38 0x1802a0128 NONE FUNC GDI32.dll                         GetObjectA
+ 39 0x1802a0130 NONE FUNC GDI32.dll                         SetStretchBltMode
+ 40 0x1802a0138 NONE FUNC GDI32.dll                         StretchDIBits
+ 41 0x1802a0140 NONE FUNC GDI32.dll                         SelectObject
+ 42 0x1802a0148 NONE FUNC GDI32.dll                         ExtSelectClipRgn
+ 43 0x1802a0150 NONE FUNC GDI32.dll                         SaveDC
+ 44 0x1802a0158 NONE FUNC GDI32.dll                         RestoreDC
+ 45 0x1802a0160 NONE FUNC GDI32.dll                         GetViewportOrgEx
+ 46 0x1802a0168 NONE FUNC GDI32.dll                         GetDeviceCaps
+ 47 0x1802a0170 NONE FUNC GDI32.dll                         DeleteObject
+ 48 0x1802a0178 NONE FUNC GDI32.dll                         DeleteDC
+ 49 0x1802a0180 NONE FUNC GDI32.dll                         CreatePolyPolygonRgn
+ 50 0x1802a0188 NONE FUNC GDI32.dll                         CreateCompatibleDC
+ 51 0x1802a0190 NONE FUNC GDI32.dll                         CreateCompatibleBitmap
+ 52 0x1802a0198 NONE FUNC GDI32.dll                         SelectClipPath
+ 53 0x1802a01a0 NONE FUNC GDI32.dll                         SetMiterLimit
+ 54 0x1802a01a8 NONE FUNC GDI32.dll                         StrokePath
+ 55 0x1802a01b0 NONE FUNC GDI32.dll                         ExtCreatePen
+ 56 0x1802a01b8 NONE FUNC GDI32.dll                         MoveToEx
+ 57 0x1802a01c0 NONE FUNC GDI32.dll                         PolyBezierTo
+ 58 0x1802a01c8 NONE FUNC GDI32.dll                         PolylineTo
+ 59 0x1802a01d0 NONE FUNC GDI32.dll                         SetBrushOrgEx
+ 60 0x1802a01d8 NONE FUNC GDI32.dll                         FillPath
+  1 0x1802a03d0 NONE FUNC MSVCP140.dll                      _Xtime_get_ticks
+  2 0x1802a03d8 NONE FUNC MSVCP140.dll                      void __cdecl std::_Throw_C_error(int)
+  3 0x1802a03e0 NONE FUNC MSVCP140.dll                      _Mtx_unlock
+  4 0x1802a03e8 NONE FUNC MSVCP140.dll                      _Mtx_lock
+  5 0x1802a03f0 NONE FUNC MSVCP140.dll                      _Mtx_destroy_in_situ
+  6 0x1802a03f8 NONE FUNC MSVCP140.dll                      _Mtx_init_in_situ
+  7 0x1802a0400 NONE FUNC MSVCP140.dll                      void __cdecl std::_Xlength_error(char const * __ptr64)
+  8 0x1802a0408 NONE FUNC MSVCP140.dll                      void __cdecl std::_Xout_of_range(char const * __ptr64)
+  9 0x1802a0410 NONE FUNC MSVCP140.dll                      int __cdecl std::_Execute_once(struct std::once_flag & __ptr64, int (__cdecl *)(void * __ptr64, void * __ptr64, void * __ptr64 * __ptr64), void * __ptr64)
+ 10 0x1802a0418 NONE FUNC MSVCP140.dll                      char const * __ptr64 __cdecl std::_Syserror_map(int)
+  1 0x1802a0428 NONE FUNC SETUPAPI.dll                      SetupDiGetClassDevsA
+  2 0x1802a0430 NONE FUNC SETUPAPI.dll                      SetupDiGetDeviceRegistryPropertyA
+  3 0x1802a0438 NONE FUNC SETUPAPI.dll                      SetupDiEnumDeviceInfo
+  1 0x1802a0448 NONE FUNC SHLWAPI.dll                       PathAppendA
+  2 0x1802a0450 NONE FUNC SHLWAPI.dll                       PathRemoveFileSpecA
+  1 0x1802a0510 NONE FUNC VCRUNTIME140.dll                  __current_exception
+  2 0x1802a0518 NONE FUNC VCRUNTIME140.dll                  __current_exception_context
+  3 0x1802a0520 NONE FUNC VCRUNTIME140.dll                  __std_type_info_destroy_list
+  4 0x1802a0528 NONE FUNC VCRUNTIME140.dll                  strstr
+  5 0x1802a0530 NONE FUNC VCRUNTIME140.dll                  memchr
+  6 0x1802a0538 NONE FUNC VCRUNTIME140.dll                  memcmp
+  7 0x1802a0540 NONE FUNC VCRUNTIME140.dll                  __C_specific_handler
+  8 0x1802a0548 NONE FUNC VCRUNTIME140.dll                  memset
+  9 0x1802a0550 NONE FUNC VCRUNTIME140.dll                  memcpy
+ 10 0x1802a0558 NONE FUNC VCRUNTIME140.dll                  __std_terminate
+ 11 0x1802a0560 NONE FUNC VCRUNTIME140.dll                  __RTDynamicCast
+ 12 0x1802a0568 NONE FUNC VCRUNTIME140.dll                  _CxxThrowException
+ 13 0x1802a0570 NONE FUNC VCRUNTIME140.dll                  memmove
+ 14 0x1802a0578 NONE FUNC VCRUNTIME140.dll                  __std_exception_destroy
+ 15 0x1802a0580 NONE FUNC VCRUNTIME140.dll                  __std_exception_copy
+ 16 0x1802a0588 NONE FUNC VCRUNTIME140.dll                  _purecall
+  1 0x1802a0598 NONE FUNC VCRUNTIME140_1.dll                __CxxFrameHandler4
+  1 0x1802a05a8 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    malloc
+  2 0x1802a05b0 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    realloc
+  3 0x1802a05b8 NONE FUNC api-ms-win-crt-heap-l1-1-0.dll    free
+  1 0x1802a0740 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  strcmp
+  2 0x1802a0748 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  _stricmp
+  3 0x1802a0750 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  strlen
+  4 0x1802a0758 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  strncpy
+  5 0x1802a0760 NONE FUNC api-ms-win-crt-string-l1-1-0.dll  toupper
+  1 0x1802a0708 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   fgetc
+  2 0x1802a0710 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   ferror
+  3 0x1802a0718 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   fclose
+  4 0x1802a0720 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   fopen_s
+  5 0x1802a0728 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   __stdio_common_vsscanf
+  6 0x1802a0730 NONE FUNC api-ms-win-crt-stdio-l1-1-0.dll   __stdio_common_vsprintf
+  1 0x1802a0680 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _beginthreadex
+  2 0x1802a0688 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initterm_e
+  3 0x1802a0690 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll exit
+  4 0x1802a0698 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _clearfp
+  5 0x1802a06a0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll strerror
+  6 0x1802a06a8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll terminate
+  7 0x1802a06b0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _invalid_parameter_noinfo_noreturn
+  8 0x1802a06b8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initterm
+  9 0x1802a06c0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _cexit
+ 10 0x1802a06c8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _crt_atexit
+ 11 0x1802a06d0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _execute_onexit_table
+ 12 0x1802a06d8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _register_onexit_function
+ 13 0x1802a06e0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initialize_onexit_table
+ 14 0x1802a06e8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _initialize_narrow_environment
+ 15 0x1802a06f0 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _configure_narrow_argv
+ 16 0x1802a06f8 NONE FUNC api-ms-win-crt-runtime-l1-1-0.dll _seh_filter_dll
+  1 0x1802a0770 NONE FUNC api-ms-win-crt-time-l1-1-0.dll    _gmtime64
+  1 0x1802a05c8 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    pow
+  2 0x1802a05d0 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    sqrt
+  3 0x1802a05d8 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    ceilf
+  4 0x1802a05e0 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    floorf
+  5 0x1802a05e8 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    log10f
+  6 0x1802a05f0 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    fabs
+  7 0x1802a05f8 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    log10
+  8 0x1802a0600 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    cos
+  9 0x1802a0608 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    sin
+ 10 0x1802a0610 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    fmodf
+ 11 0x1802a0618 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    sqrtf
+ 12 0x1802a0620 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    powf
+ 13 0x1802a0628 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    log
+ 14 0x1802a0630 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    _fdtest
+ 15 0x1802a0638 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    ldexp
+ 16 0x1802a0640 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    atan2f
+ 17 0x1802a0648 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    atan2
+ 18 0x1802a0650 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    ceil
+ 19 0x1802a0658 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    fmod
+ 20 0x1802a0660 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    _isnan
+ 21 0x1802a0668 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    floor
+ 22 0x1802a0670 NONE FUNC api-ms-win-crt-math-l1-1-0.dll    _hypot
+  1 0x1802a0780 NONE FUNC api-ms-win-crt-utility-l1-1-0.dll abs
+  2 0x1802a0788 NONE FUNC api-ms-win-crt-utility-l1-1-0.dll qsort
+Resource 0
+  name: 1
+  timestamp: Tue Jan  1 00:00:00 1980 UTC
+  vaddr: 0x1804020a0
+  size: 1.0K
+  type: VERSION
+  language: LANG_ENGLISH
+Resource 1
+  name: 2
+  timestamp: Tue Jan  1 00:00:00 1980 UTC
+  vaddr: 0x1804024c0
+  size: 381
+  type: MANIFEST
+  language: LANG_ENGLISH
+=== VS_VERSIONINFO ===
+
+# VS_FIXEDFILEINFO
+
+  Signature: 0xfeef04bd
+  StrucVersion: 0x10000
+  FileVersion: 4.30.87.47594
+  ProductVersion: 4.30.0.1
+  FileFlagsMask: 0x3f
+  FileFlags: 0x0
+  FileOS: 0x4
+  FileType: 0x2
+  FileSubType: 0x0
+
+# StringTable
+
+  BinType: 64
+  CompanyName: Adobe Systems Incorporated
+  FileDescription: Adobe Graphics Manager
+  FileVersion: 4.30.87.47594
+  InternalName: AGM
+  LegalCopyright: © 1984-2009 Adobe Systems Incorporated
+  OriginalFilename: AGM.dll
+  ProductName: AGM 2020/10/28-12:40:22
+  ProductVersion: 113.624934
+  BuildDate: 2020/10/28-12:40:22
+  BuildVersion: 113.624934
+  BuildType: ReleaseMinMT
+  BuildID: 47594
