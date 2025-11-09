@@ -1,0 +1,785 @@
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ file suspect.exe
+suspect.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 10 sections
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ sha256sum suspect.exe > suspect.sha256
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ md5sum suspect.exe
+cff16f1256b26442ba04a5d38ac60d9a  suspect.exe
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat suspect.sha256
+7f2c5ae7c3fb101923ade86a2198a928bd3f198097bd657e9294b4dfcbaac138  suspect.exe
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ stat -c '%n %s %y' suspect.exe  # filename, size, mtime
+suspect.exe 398616 2025-10-27 04:48:54.000000000 +0000
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ strings -a -n 8 suspect.exe | sed -n '1,200p' > suspect.strings.txt
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ head -n 200 suspect.strings.txt
+!This program cannot be run in DOS mode.
+@.buildid5
+AWAVAUATUWVSH
+H[^_]A\A]A^A_1
+AVAUATUWVSH
+[^_]A\A]A^1
+AWAVAUATUWVSH
+x[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AVAUATUWVSH
+[^_]A\A]A^1
+AUATUWVSH
+([^_]A\A]1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AUATUWVSH
+H[^_]A\A]
+AVAUATUWVSH
+@[^_]A\A]A^1
+@[^_]A\A]A^1
+AVAUATUWVS
+[^_]A\A]A^A_1
+ [^_]A\1
+P[^_]A\1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+x[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AVAUATUWVSH
+`[^_]A\A]A^1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+X[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+H[^_]A\A]A^A_1
+AWAVAUATUWVSH
+([^_]A\A]A^A_1
+D$@8D$?uMH
+AWAVAUATUWVSH
+-----BEGI3
+IN OPENSI3O
+([^_]A\A]A^A_1
+SH PRIVAI3W
+TE KEY--I3O
+-----ENDH
+ OPENSSHf
+ PRIVATEI3G
+ KEY----I3W
+openssh-H9
+ [^_]A\H
+ [^_]A\1
+ [^_]A\1
+AWAVAUATUWVSH
+8[^_]A\A]A^A_1
+AWAVAUATUWVSH
+8[^_]A\A]A^A_1
+ [^_]A\1
+ [^_]A\H
+ [^_]A\1
+AVAUATUWVSH
+P[^_]A\A]A^1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+mnprstvzH
+bcdfghklH
+--------D
+--------
+--------A
+--------
+0[^_]A\1
+AUATUWVSH
+H[^_]A\A]1
+0[^_]A\1
+0[^_]A\1
+0[^_]A\1
+0[^_]A\1
+0[^_]A\1
+AUATUWVSH
+([^_]A\A]1
+0[^_]A\1
+0[^_]A\1
+0[^_]A\1
+AUATUWVSH
+@X[^_]A\A]H
+[^_]A\A]1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+H[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AUATUWVSH
+([^_]A\A]1
+@[^_]A\1
+AVAUATUWVSH
+[^_]A\A]A^1
+AWAVAUATUWVSH
+X[^_]A\A]A^A_1
+L$0D9>uUA
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AVAUATUWVSH
+0[^_]A\A]A^1
+0[^_]A\A]A^1
+0[^_]A\A]A^1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+X[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+8[^_]A\A]A^A_1
+AUATUWVSH
+([^_]A\A]1
+AWAVAUATUWVSH
+x[^_]A\A]A^A_1
+x[^_]A\A]A^A_
+AWAVAUATUWVSH
+X[^_]A\A]A^A_1
+ [^_]A\1
+AUATUWVSH
+X[^_]A\A]1
+0[^_]A\1
+P[^_]A\1
+AWAVAUATUWVSH
+([^_]A\A]A^A_1
+89abcdefH
+01234567H
+AVAUATUWVSH
+ [^_]A\A]A^1
+ [^_]A\1
+AUATUWVSH
+([^_]A\A]1
+AVAUATUWVSH
+0[^_]A\A]A^1
+AWAVAUATUWVSH
+8[^_]A\A]A^A_1
+AVAUATUWVSH
+0[^_]A\A]A^1
+AVAUATUWVSH
+0[^_]A\A]A^1
+AUATUWVSH
+X[^_]A\A]1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+8[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+p[^_]A\1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+8[^_]A\A]A^A_1
+AVAUATUWVS
+[^_]A\A]A^A_1
+AWAVAUATUWVSH
+[^_]A\A]A^A_1
+AUATUWVSH
+([^_]A\A]1
+([^_]A\A]1
+([^_]A\A]1
+AWAVAUATUWVSH
+x[^_]A\A]A^A_1
+P[^_]A\1
+P[^_]A\1
+@[^_]A\1
+AUATUWVSH
+8[^_]A\A]1
+AVAUATUWVSH
+ [^_]A\A]A^1
+AWAVAUATUWVSH
+H[^_]A\A]A^A_1
+P[^_]A\1
+AVAUATUWVSH
+0[^_]A\A]A^1
+@[^_]A\1
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ sudo apt install rizin
+[sudo] password for r: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package rizin
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ echo 'deb http://download.opensuse.org/repositories/home:/RizinOrg/xUbuntu_25.04/ /' | sudo tee /etc/apt/sources.list.d/home:RizinOrg.list
+curl -fsSL https://download.opensuse.org/repositories/home:RizinOrg/xUbuntu_25.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_RizinOrg.gpg > /dev/null
+sudo apt update
+sudo apt install rizin
+deb http://download.opensuse.org/repositories/home:/RizinOrg/xUbuntu_25.04/ /
+Command 'curl' not found, but can be installed with:
+sudo snap install curl  # version 8.17.0, or
+sudo apt  install curl  # version 8.5.0-2ubuntu10.6
+See 'snap info curl' for additional versions.
+gpg: no valid OpenPGP data found.
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://gb.archive.ubuntu.com/ubuntu noble InRelease                                                                                     
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]                                                                    
+Hit:4 https://ppa.launchpadcontent.net/cubic-wizard/release/ubuntu noble InRelease                                                                      
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]                                                                            
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]                                            
+Get:7 http://gb.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]                                                            
+Get:8 http://gb.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]                                                                      
+Get:9 http://gb.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]                                                                     
+Get:10 http://gb.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7,140 B]                                       
+Get:11 http://gb.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]                                                                  
+Get:12 http://gb.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]                                                                  
+Get:13 http://gb.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]                                                                  
+Get:14 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]                                                                                      
+Get:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:16 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]                      
+Get:19 http://download.opensuse.org/repositories/home:/RizinOrg/xUbuntu_25.04  InRelease [1,518 B]
+Err:19 http://download.opensuse.org/repositories/home:/RizinOrg/xUbuntu_25.04  InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B8E403CB8BC7DC50
+Reading package lists... Done
+W: GPG error: http://download.opensuse.org/repositories/home:/RizinOrg/xUbuntu_25.04  InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B8E403CB8BC7DC50
+E: The repository 'http://download.opensuse.org/repositories/home:/RizinOrg/xUbuntu_25.04  InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package rizin
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cd ..
+r@r-desktop:~/Downloads$ sudo dpkg -i rizin_0.8.0-1_amd64.deb 
+Selecting previously unselected package rizin.
+(Reading database ... 190524 files and directories currently installed.)
+Preparing to unpack rizin_0.8.0-1_amd64.deb ...
+Unpacking rizin (0.8.0-1) ...
+dpkg: dependency problems prevent configuration of rizin:
+ rizin depends on librizin-common (>= 0.8.0-1); however:
+  Package librizin-common is not installed.
+
+dpkg: error processing package rizin (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Errors were encountered while processing:
+ rizin
+r@r-desktop:~/Downloads$ sudo dpkg -i librizin-common_0.8.0-1_all.deb 
+Selecting previously unselected package librizin-common.
+(Reading database ... 190598 files and directories currently installed.)
+Preparing to unpack librizin-common_0.8.0-1_all.deb ...
+Unpacking librizin-common (0.8.0-1) ...
+Setting up librizin-common (0.8.0-1) ...
+r@r-desktop:~/Downloads$ sudo dpkg -i rizin_0.8.0-1_amd64.deb 
+(Reading database ... 190955 files and directories currently installed.)
+Preparing to unpack rizin_0.8.0-1_amd64.deb ...
+Unpacking rizin (0.8.0-1) over (0.8.0-1) ...
+Setting up rizin (0.8.0-1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+r@r-desktop:~/Downloads$ ls
+ balenaEtcher-linux-x64-2.1.4                                                                   MEGA-RECOVERYKEY.txt
+ balenaEtcher-linux-x64-2.1.4.zip                                                               nomachine_9.2.18_3_amd64.deb
+'bin-long(1).stl'                                                                               normografo-proj-small.3mf
+ bin-long.stl                                                                                   openmediavault_7.4.17-amd64.iso
+ client_secret_1071696989909-ch1iefad029cj9213ehdns4me6hqdd2g.apps.googleusercontent.com.json   post_install.sh
+ contacts.vcf                                                                                   rhinoceros-activati0nguide_3.8.5
+ google-chrome-stable_current_amd64.deb                                                         rhinoceros-activati0nguide_3.8.5.zip
+'ikea-skadis(1).stl'                                                                            rhino_en-us_8.24.25281.15001.exe
+ ikea_skadis_hook_10mm.stl                                                                      rizin_0.8.0-1_amd64.deb
+ ikea-skadis.stl                                                                                users.xls
+ librizin-common_0.8.0-1_all.deb
+r@r-desktop:~/Downloads$ cd rhinoceros-activati0nguide_3.8.5/
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ ls
+concrt140e.dll  msys-crypto-3.dll     PineTools.com_2025-11-09_00h32m16s  rhinoceros-activati0nguide_3.8.5.exe  suspect.sha256       tree.txt
+GitHub.txt      msys-gcc_s-seh-1.dll  rhinoceros-activati0nguide_3.8.5.c  suspect.exe                           suspect.strings.txt  x86
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ rizin -q -c "iI" suspect.exe    # PE header info
+arch     x86
+cpu      N/A
+features N/A
+baddr    0x100400000
+binsz    0x00061518
+bintype  pe
+bits     64
+retguard false
+class    PE32+
+cmp.csum 0x0006905b
+compiled Mon Mar 11 11:48:13 2024 UTC
+compiler Linker 02.42
+dbg_file N/A
+endian   LE
+hdr.csum 0x0006905b
+guid     DE2E57A8E413417A306618045C3DC1F01
+intrp    N/A
+laddr    0x00000000
+lang     c
+machine  AMD 64
+maxopsz  16
+minopsz  1
+os       windows
+overlay  false
+cc       ms
+pcalign  1
+rpath    N/A
+signed   true
+subsys   Windows CUI
+stripped true
+crypto   false
+havecode true
+va       true
+sanitiz  false
+static   false
+linenum  true
+lsyms    false
+canary   false
+PIE      false
+RELROCS  false
+NX       false
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ rizin -q -c "i?" suspect.exe    # imports + exports summary
+Usage: i[?]   # Get info about opened binary file
+│i[jqt]                 # Show info of current file
+│ia[jq]                 # Show a summary of all info (imports, exports, sections, etc.)
+│iA[jqt]                # List archs
+│ic[?]                  # List classes, fields and methods
+│iC[j]                  # Show signature info (entitlements, ...)
+│id[jqp]                # Debug commands
+│iD[l]                  # Demangle symbol for given language
+│ie[jqt]                # List entrypoints
+│iee[jqt]               # List entries/exits functions (e.g. preinit, init, fini)
+│iE[jqt.]               # List exports
+│ih[jqt]                # Show binary fields
+│iH                     # Show binary headers
+│ii[jqt]                # List imports
+│iI[jqt]                # Show binary info
+│ik[*]                  # Query key-value database from RzBinObject
+│il[jqt]                # List libraries
+│iL[jqt] [<plugin>]     # List all binary plugins loaded / Show plugin details
+│im[jqt]                # Show info about predefined memory allocation
+│iM[jqt]                # Show main address
+│ir[jqt]                # List relocations
+│iR[jt] [<digests1> <digests2> ...] # List Resources
+│is[jqQt]               # List symbols
+│is.[jqt]               # Current symbol
+│iS[jqt] [<digests1> <digests2> ...] # List sections
+│iS.[jt]                # Current section
+│iS=                    # Show ascii-art color bars with the section ranges
+│iSS[jt] [<digests1> <digests2> ...] # List segments
+│iSS.[jt]               # Current segment
+│iT[j]                  # Show file hashes
+│iV[j]                  # Display file version info
+│iw[*]                  # Show try/catch blocks
+│ix[j]                  # Display source file line info
+│ix.[j]                 # Display source file line info at current address
+│ixf[j]                 # Display source file info
+│iz[jqQt]               # List strings
+│izz[jqQt]              # List strings in the whole binary
+│iz-                    # Purge string at current address via bin.str.purge
+│iZ[j*]                 # Guess size of binary program
+│izx[jqQt]              # List all strings which have xrefs to them.
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ pip install pefile
+Command 'pip' not found, but can be installed with:
+sudo apt install python3-pip
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ source ~/
+Arduino/                   credentials.json           .java/                     Pictures/                  Templates/
+.arduino15/                Desktop/                   .junie/                    .pki/                      token.pickle
+.bash_history              Documents/                 .local/                    .profile                   .var/
+.bash_logout               .dotnet/                   .mozilla/                  Public/                    venv/
+.bashrc                    Downloads/                 Music/                     .qt/                       Videos/
+bin/                       gmail_cleaner/             .npm/                      snap/                      .vscode/
+.cache/                    .gnome/                    .nx/                       .ssh/                      WebstormProjects/
+.config/                   .gnupg/                    pass/                      .sudo_as_admin_successful  
+r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ source ~/venv/bin/activate
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ pip install pefile
+Collecting pefile
+  Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.8/74.8 kB 3.4 MB/s eta 0:00:00
+Installing collected packages: pefile
+Successfully installed pefile-2024.8.26
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ nano pefileinspect.py
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ python pefileinspect.py suspect.exe 
+msys-crypto-3.dll
+  b'BIO_ctrl'
+  b'BIO_free'
+  b'BIO_new'
+  b'BIO_s_mem'
+  b'BIO_write'
+  b'BN_CTX_free'
+  b'BN_CTX_new'
+  b'BN_bin2bn'
+  b'BN_bn2bin'
+  b'BN_clear_free'
+  b'BN_cmp'
+  b'BN_div'
+  b'BN_dup'
+  b'BN_free'
+  b'BN_new'
+  b'BN_num_bits'
+  b'BN_print_fp'
+  b'BN_set_flags'
+  b'BN_set_word'
+  b'BN_sub'
+  b'BN_value_one'
+  b'DSA_SIG_free'
+  b'DSA_SIG_get0'
+  b'DSA_SIG_new'
+  b'DSA_SIG_set0'
+  b'DSA_do_sign'
+  b'DSA_do_verify'
+  b'DSA_free'
+  b'DSA_generate_key'
+  b'DSA_generate_parameters_ex'
+  b'DSA_get0_key'
+  b'DSA_get0_pqg'
+  b'DSA_new'
+  b'DSA_set0_key'
+  b'DSA_set0_pqg'
+  b'ECDSA_SIG_free'
+  b'ECDSA_SIG_get0'
+  b'ECDSA_SIG_new'
+  b'ECDSA_SIG_set0'
+  b'ECDSA_do_sign'
+  b'ECDSA_do_verify'
+  b'EC_GROUP_cmp'
+  b'EC_GROUP_free'
+  b'EC_GROUP_get_curve_name'
+  b'EC_GROUP_get_order'
+  b'EC_GROUP_method_of'
+  b'EC_GROUP_new_by_curve_name'
+  b'EC_GROUP_set_asn1_flag'
+  b'EC_KEY_METHOD_free'
+  b'EC_KEY_METHOD_get_init'
+  b'EC_KEY_METHOD_get_sign'
+  b'EC_KEY_METHOD_new'
+  b'EC_KEY_METHOD_set_init'
+  b'EC_KEY_METHOD_set_sign'
+  b'EC_KEY_OpenSSL'
+  b'EC_KEY_free'
+  b'EC_KEY_generate_key'
+  b'EC_KEY_get0_group'
+  b'EC_KEY_get0_private_key'
+  b'EC_KEY_get0_public_key'
+  b'EC_KEY_get_method'
+  b'EC_KEY_new_by_curve_name'
+  b'EC_KEY_set_asn1_flag'
+  b'EC_KEY_set_group'
+  b'EC_KEY_set_method'
+  b'EC_KEY_set_private_key'
+  b'EC_KEY_set_public_key'
+  b'EC_KEY_up_ref'
+  b'EC_METHOD_get_field_type'
+  b'EC_POINT_cmp'
+  b'EC_POINT_free'
+  b'EC_POINT_get_affine_coordinates_GFp'
+  b'EC_POINT_is_at_infinity'
+  b'EC_POINT_mul'
+  b'EC_POINT_new'
+  b'EC_POINT_oct2point'
+  b'EC_POINT_point2oct'
+  b'ERR_get_error'
+  b'ERR_peek_error'
+  b'ERR_peek_last_error'
+  b'EVP_CIPHER_CTX_ctrl'
+  b'EVP_CIPHER_CTX_free'
+  b'EVP_CIPHER_CTX_get_iv_length'
+  b'EVP_CIPHER_CTX_get_key_length'
+  b'EVP_CIPHER_CTX_get_updated_iv'
+  b'EVP_CIPHER_CTX_iv'
+  b'EVP_CIPHER_CTX_iv_noconst'
+  b'EVP_CIPHER_CTX_new'
+  b'EVP_CIPHER_CTX_set_key_length'
+  b'EVP_Cipher'
+  b'EVP_CipherInit'
+  b'EVP_Digest'
+  b'EVP_DigestFinal_ex'
+  b'EVP_DigestInit_ex'
+  b'EVP_DigestUpdate'
+  b'EVP_MD_CTX_copy_ex'
+  b'EVP_MD_CTX_free'
+  b'EVP_MD_CTX_get0_md'
+  b'EVP_MD_CTX_new'
+  b'EVP_MD_get_block_size'
+  b'EVP_PKEY_free'
+  b'EVP_PKEY_get1_DSA'
+  b'EVP_PKEY_get1_EC_KEY'
+  b'EVP_PKEY_get1_RSA'
+  b'EVP_PKEY_get_base_id'
+  b'EVP_PKEY_new'
+  b'EVP_PKEY_set1_DSA'
+  b'EVP_PKEY_set1_EC_KEY'
+  b'EVP_PKEY_set1_RSA'
+  b'EVP_aes_128_cbc'
+  b'EVP_aes_128_ctr'
+  b'EVP_aes_128_gcm'
+  b'EVP_aes_192_cbc'
+  b'EVP_aes_192_ctr'
+  b'EVP_aes_256_cbc'
+  b'EVP_aes_256_ctr'
+  b'EVP_aes_256_gcm'
+  b'EVP_chacha20'
+  b'EVP_des_ede3_cbc'
+  b'EVP_md5'
+  b'EVP_sha1'
+  b'EVP_sha256'
+  b'EVP_sha384'
+  b'EVP_sha512'
+  b'OPENSSL_init_crypto'
+  b'OpenSSL_version_num'
+  b'PEM_read_bio_PrivateKey'
+  b'PEM_write_bio_DSAPrivateKey'
+  b'PEM_write_bio_ECPrivateKey'
+  b'PEM_write_bio_PrivateKey'
+  b'PEM_write_bio_RSAPrivateKey'
+  b'RAND_status'
+  b'RSA_blinding_on'
+  b'RSA_free'
+  b'RSA_generate_key_ex'
+  b'RSA_get0_crt_params'
+  b'RSA_get0_factors'
+  b'RSA_get0_key'
+  b'RSA_get_default_method'
+  b'RSA_get_method'
+  b'RSA_meth_dup'
+  b'RSA_meth_free'
+  b'RSA_meth_get_finish'
+  b'RSA_meth_set1_name'
+  b'RSA_meth_set_finish'
+  b'RSA_meth_set_priv_enc'
+  b'RSA_new'
+  b'RSA_public_decrypt'
+  b'RSA_set0_crt_params'
+  b'RSA_set0_factors'
+  b'RSA_set0_key'
+  b'RSA_set_method'
+  b'RSA_sign'
+  b'RSA_size'
+  b'RSA_up_ref'
+  b'd2i_ECDSA_SIG'
+msys-2.0.dll
+  b'__b64_ntop'
+  b'__b64_pton'
+  b'__cxa_atexit'
+  b'__errno'
+  b'__getreent'
+  b'__locale_ctype_ptr'
+  b'__main'
+  b'__progname'
+  b'__stack_chk_fail'
+  b'__stack_chk_guard'
+  b'_dll_crt0'
+  b'_exit'
+  b'_impure_ptr'
+  b'accept'
+  b'access'
+  b'arc4random'
+  b'arc4random_buf'
+  b'asprintf'
+  b'bind'
+  b'calloc'
+  b'chdir'
+  b'clock_gettime'
+  b'close'
+  b'closedir'
+  b'closelog'
+  b'connect'
+  b'cygwin_internal'
+  b'dirfd'
+  b'dirname'
+  b'dll_dllcrt0'
+  b'dup2'
+  b'environ'
+  b'execlp'
+  b'execv'
+  b'execve'
+  b'execvp'
+  b'exit'
+  b'explicit_bzero'
+  b'fcntl'
+  b'fdopen'
+  b'fflush'
+  b'fork'
+  b'fprintf'
+  b'fputc'
+  b'free'
+  b'freeaddrinfo'
+  b'fstat'
+  b'fwrite'
+  b'gai_strerror'
+  b'getaddrinfo'
+  b'getenv'
+  b'geteuid'
+  b'getgid'
+  b'getnameinfo'
+  b'getopt'
+  b'getpagesize'
+  b'getpeereid'
+  b'getpid'
+  b'getppid'
+  b'getpwnam'
+  b'getpwuid'
+  b'getrlimit'
+  b'getservbyname'
+  b'getsid'
+  b'getsockname'
+  b'getsockopt'
+  b'gettimeofday'
+  b'getuid'
+  b'initgroups'
+  b'isatty'
+  b'kill'
+  b'listen'
+  b'localtime_r'
+  b'malloc'
+  b'mbstowcs'
+  b'memchr'
+  b'memcmp'
+  b'memcpy'
+  b'memmem'
+  b'memmove'
+  b'memset'
+  b'mkdtemp'
+  b'mktime'
+  b'mmap'
+  b'msys_detach_dll'
+  b'munmap'
+  b'nanosleep'
+  b'open'
+  b'opendir'
+  b'openlog'
+  b'optarg'
+  b'optind'
+  b'pathconf'
+  b'perror'
+  b'pipe'
+  b'poll'
+  b'posix_memalign'
+  b'ppoll'
+  b'printf'
+  b'raise'
+  b'read'
+  b'readdir'
+  b'readv'
+  b'realloc'
+  b'reallocarray'
+  b'realpath'
+  b'rmdir'
+  b'setegid'
+  b'setenv'
+  b'setgid'
+  b'setregid'
+  b'setreuid'
+  b'setrlimit'
+  b'setsid'
+  b'setsockopt'
+  b'sigaction'
+  b'sigaddset'
+  b'sigemptyset'
+  b'sigfillset'
+  b'sigprocmask'
+  b'snprintf'
+  b'socket'
+  b'socketpair'
+  b'stat'
+  b'strcasecmp'
+  b'strchr'
+  b'strcmp'
+  b'strcspn'
+  b'strdup'
+  b'strerror'
+  b'strftime'
+  b'strlcat'
+  b'strlcpy'
+  b'strlen'
+  b'strncasecmp'
+  b'strncmp'
+  b'strndup'
+  b'strpbrk'
+  b'strptime'
+  b'strrchr'
+  b'strsep'
+  b'strsignal'
+  b'strspn'
+  b'strtol'
+  b'strtoll'
+  b'strtoul'
+  b'sysconf'
+  b'syslog'
+  b'tcgetattr'
+  b'tcsetattr'
+  b'time'
+  b'timegm'
+  b'timingsafe_bcmp'
+  b'tolower'
+  b'toupper'
+  b'towlower'
+  b'umask'
+  b'unlink'
+  b'usleep'
+  b'vasprintf'
+  b'vsnprintf'
+  b'waitpid'
+  b'write'
+msys-gcc_s-seh-1.dll
+  b'__addvdi3'
+  b'__addvsi3'
+  b'__mulvdi3'
+  b'__mulvsi3'
+  b'__negvdi2'
+  b'__negvsi2'
+  b'__subvdi3'
+  b'__subvsi3'
+KERNEL32.dll
+  b'GetModuleHandleA'
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ strings suspect.exe | grep -i upx || true
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ binwalk -e suspect.exe
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Microsoft executable, portable (PE)
+60708         0xED24          bix header, header size: 64 bytes, header CRC: 0x4C89E2, created: 2008-09-10 03:51:00, image size: 1476395008 bytes, Data Address: 0x48C744, Entry Point: 0x24600000, data CRC: 0x48C7, compression type: none, image name: ""
+61436         0xEFFC          bix header, header size: 64 bytes, header CRC: 0x41BFEE, created: 2106-02-07 06:26:19, image size: 1074299880 bytes, Data Address: 0x183F801, Entry Point: 0xF870AFE, data CRC: 0xFFFF488D, compression type: none, image name: ""
+207021        0x328AD         Unix path: /usr/local/lib*/*
+209704        0x33328         Unix path: /usr/lib/ssh/ssh-pkcs11-helper
+210448        0x33610         Unix path: /usr/lib/ssh/ssh-sk-helper
+213151        0x3409F         OpenSSH RSA1 private key, version "--END OPENSSH PRIVATE KEY-----"
+213189        0x340C5         OpenSSH RSA1 private key, version "h-key-v1"
+216720        0x34E90         Unix path: /usr/lib/ssh/ssh-askpass
+371288        0x5AA58         XML document, version: "1.0"
+386440        0x5E588         Object signature in DER format (PKCS header length: 4, sequence length: 12165
+386579        0x5E613         Certificate in DER format (x509 v3), header length: 4, sequence length: 1503
+388086        0x5EBF6         Certificate in DER format (x509 v3), header length: 4, sequence length: 1667
+389757        0x5F27D         Certificate in DER format (x509 v3), header length: 4, sequence length: 1770
+392388        0x5FCC4         Object signature in DER format (PKCS header length: 4, sequence length: 6217
+392677        0x5FDE5         Certificate in DER format (x509 v3), header length: 4, sequence length: 1503
+394184        0x603C8         Certificate in DER format (x509 v3), header length: 4, sequence length: 1647
+395835        0x60A3B         Certificate in DER format (x509 v3), header length: 4, sequence length: 1716
+
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat x86/
+config.json                         logo.png                            PineTools.com_2025-11-09_00h33m39s/ PineTools.com_2025-11-09_00h34m50s/
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat ../rhino
+rhinoceros-activati0nguide_3.8 (2).5/ rhinoceros-activati0nguide_3.8.5/     rhinoceros-activati0nguide_3.8.5.zip  rhino_en-us_8.24.25281.15001.exe
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat ../rhinoceros-activati0nguide_3.8.5
+rhinoceros-activati0nguide_3.8.5/     rhinoceros-activati0nguide_3.8.5.zip  
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat ../rhinoceros-activati0nguide_3.8.5
+rhinoceros-activati0nguide_3.8.5/     rhinoceros-activati0nguide_3.8.5.zip  
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat ../rhinoceros-activati0nguide_3.8
+rhinoceros-activati0nguide_3.8 (2).5/ rhinoceros-activati0nguide_3.8.5/     rhinoceros-activati0nguide_3.8.5.zip  
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat ../rhinoceros-activati0nguide_3.8\ \(2\).5/x86/obsidian-source.dll
+obsidian-source.dll         obsidian-source.dll.sha256  
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ cat ../rhinoceros-activati0nguide_3.8\ \(2\).5/x86/obsidian-source.dll.sha256 
+a29daf1b537ab3cc653b62849348b8459e328b874b947f2d1a87b7b33dca09ac  obsidian-source.dll
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ strings -a -n 6 suspect.exe | sed -n '1,500p' | grep -iE 'http|https|domain|password|key|token|c2|callback|mutex|registry|path'
+TE KEY--I3O
+ KEY----I3W
+-key-v1
+publickey-hostbound-v00@openssh.com
+publickey
+(venv) r@r-desktop:~/Downloads/rhinoceros-activati0nguide_3.8.5$ 
+
